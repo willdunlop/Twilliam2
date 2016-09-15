@@ -1,0 +1,1000 @@
+  870  ls
+  871  atom .
+  872  cd ../..
+  873  ls -a
+  874  cd ~/CoderFactory/
+  875  ls
+  876  cd ./railsApps/
+  877  ls
+  878  ls -a
+  879  sudo rm -rf .git
+  880  ls -a
+  881  cd ~/CoderFactory/railsApps/
+  882  cd ./portfolio/
+  883  git init
+  884  git commit -m "first"
+  885  git update-index --assume-unchanged ~/CoderFactory/railsApps/portfolio/
+  886  git init
+  887  git commit -m "first"
+  888  git update-index --no-assume-unchanged ~/CoderFactory/railsApps/portfolio/
+  889  git init
+  890  git commit -m "first"
+  891  rm -rf .git
+  892  ls -a
+  893  git init
+  894  git commit -m "first
+  895  git commit -m "first"
+  896  git init
+  897  git add .
+  898  git commit -m "23/08 -v1"
+  899  git remote add origin https://github.com/willdunlop/portfolio.git
+  900  git push -u origin master
+  901  atom .
+  902  rails s
+  903  git init
+  904  git add .
+  905  git commit -m "23/08 -v2"
+  906  git push -u origin master
+  907  sudo shutdown now
+  908  cd ~/CoderFactory/railsApps/portfolio/
+  909  atom .
+  910  cd ~/CoderFactory/railsApps/portfolio/
+  911  rails s
+  912  rails -v
+  913  cd ..
+  914  mkdir NewRails
+  915  cd ./NewRails/
+  916  cd ..
+  917  rails new bootstrap
+  918  ls
+  919  rmdir NewRails/
+  920  cd ./bootstrap/
+  921  atom .
+  922  rails s
+  923  rails g controller pages home
+  924  rails s
+  925  bundle
+  926  rails s
+  927  rails g rename:app_to newapp
+  928  cd ..
+  929  rails new newapp
+  930  cd ./newapp/
+  931  rails g controller pages home
+  932  atom .
+  933  rails s
+  934  bundle
+  935  rails s
+  936  bundle
+  937  rails generate devise:install
+  938  clear
+  939  rails generate devise User
+  940  rails s
+  941  rake db:migrate
+  942  rails s
+  943  cd ..
+  944  cd ./portfolio/
+  945  rails s
+  946  atom .
+  947  bundle
+  948  rails generate devise:install
+  949  rails generate devise User
+  950  rails s
+  951  rake db:migrate
+  952  rails s
+  953  rails g devise:views
+  954  rails s
+  955  ls -a
+  956  git init
+  957  git add .
+  958  git commit -m "25/08 -v1"
+  959  git push -u origin master
+  960  sudo vim .bash_profile 
+  961  rvm --default use 2.3.1
+  962  cd ~/CoderFactory/railsApps/EmailApp/
+  963  atom .
+  964  apt-get
+  965  apt-get update
+  966  sudo apt-get update
+  967  sudo apt-get upgrade
+  968  cd ~/CoderFactory/railsApps/blog/
+  969  atom .
+  970  cd ~
+  971  vim .bashrc
+  972  cd ~/CoderFactory/railsApps/portfolio/
+  973  atom.
+  974  atom .
+  975  ruby -v
+  976  rails -v
+  977  cd ~/CoderFactory/railsApps/
+  978  ls
+  979  rails new EmailApp
+  980  cd ./EmailApp/
+  981  rails s
+  982  source ~/.bash_profile 
+  983  rails s
+  984  cd .
+  985  cd ../blog
+  986  touch app/controllers/pages_controller.rb
+  987  mkdir app/views/pages
+  988  touch app/views/pages/home.html.erb
+  989  ls app/views/
+  990  touch app/controllers/articles_controller.rb
+  991  PS1='\u:\W\$ '
+  992  PS1='\e[31m\u:\W\$\e[0m '
+  993  mkdir app/views/articles
+  994  touch app/views/articles/new.html.erb
+  995  touch app/test/test
+  996  PS1='\e[32m\u:\W\$\e[0m '
+  997  PS1='\e[1;1;32m\u:\W\$\e[1;0;0m '
+  998  PS1='\e[1;1;32m\u:\e[33m\W\$\e[1;0;0m '
+  999  PS1='\e[1;1;32m\u:\e[34m\W\$\e[1;0;0m '
+ 1000  PS1='\e[1;1;32m\u:\e[34m\W\ $\e[1;0;0m '
+ 1001  PS1='\e[1;1;32m\u:\e[34m\W $\e[1;0;0m '
+ 1002  PS1='\e[1;1;32m\u: \e[34m\W $\e[1;0;0m '
+ 1003  PS1='\e[1;1;32m\u : \e[34m\W $\e[1;0;0m '
+ 1004  PS1='\e[1;1;32m\u:\e[34m\W $\e[1;0;0m '
+ 1005  mkdir db/migrate
+ 1006  man touch
+ 1007  touch db/migrate/20160826033400_create_articles.rb
+ 1008  man touch
+ 1009  rails db:migrate
+ 1010  cowsay
+ 1011  cowsay moo
+ 1012  cowsay Hey Doug!
+ 1013  apt-cache search cowsay
+ 1014  touch app/models/article.rb
+ 1015  rails c
+ 1016  htop
+ 1017  cd ../portfolio/
+ 1018  ranger
+ 1019  sudo iftop
+ 1020  rails g controller pageshome  contact
+ 1021  atom .
+ 1022  rails d controller pageshome contact
+ 1023  rails g controller pages home contact
+ 1024  rails g scaffold Enquiry name email subject message:text responded:boolean 
+ 1025  rails routes
+ 1026  rails c
+ 1027  rails db:console
+ 1028  rails g mailer EnquiryMailer received response
+ 1029  sudo vim ~/.bash_profile 
+ 1030  source ~/.bash_profile 
+ 1031  echo MAILGUN_USERNAME
+ 1032  echo $MAILGUN_USERNAME
+ 1033  sudo vim ~/.bash_profile 
+ 1034  source ~/.bash_profile 
+ 1035  cd ..
+ 1036  rails new blog
+ 1037  cd blog
+ 1038  rail s
+ 1039  rails s
+ 1040  sudo apt-get upgrade
+ 1041  cd ../portfolio/
+ 1042  rails s
+ 1043  sudo shutdown now
+ 1044  sudo vim .bashrc
+ 1045  source .bashrc
+ 1046  cd ~/CoderFactory/
+ 1047  cd ..
+ 1048  sudo vim .bashrc
+ 1049  cd ~/CoderFactory/
+ 1050  cd ./railsApps/
+ 1051  cd ../..
+ 1052  sudo vim .bashrc
+ 1053  cd ./CoderFactory/
+ 1054  ls
+ 1055  cd ~/CoderFactory/
+ 1056  cd CoderFactory/
+ 1057  ls\
+ 1058  ls -a
+ 1059  cd CoderFactory/
+ 1060  cd ~/CoderFactory/
+ 1061  pwd
+ 1062  sudo vim .bashrc
+ 1063  ls -a
+ 1064  cd ..
+ 1065  sudo vim .bashrc
+ 1066  cd CoderFactory/
+ 1067  reboot
+ 1068  cd CoderFactory/
+ 1069  sudo vim .bashrc
+ 1070  cd CoderFactory/
+ 1071  cd ..
+ 1072  sudo vim .basgrc
+ 1073  sudo vim .bashrc
+ 1074  cd CoderFactory/
+ 1075  cd CoderFactory/
+ 1076  ls -a
+ 1077  sudo vim .bashrc
+ 1078  cd ..
+ 1079  sudo vim .bashrc
+ 1080  sudo apt-get update && sudo apt-get upgrade
+ 1081  cd ~/Documents/
+ 1082  ls
+ 1083  loffice CoderFactory-AboutMe.odt 
+ 1084  cd ../CoderFactory/railsApps/portfolio/
+ 1085  atom .
+ 1086  git init
+ 1087  git add .
+ 1088  git commit -m "29/08 -v1"
+ 1089  git push -u origin master
+ 1090  rails s
+ 1091  git innit
+ 1092  gi init
+ 1093  git init
+ 1094  git add .
+ 1095  git commit -m "29/08 -v2"
+ 1096  git push -u origin master
+ 1097  sudo shutdown now
+ 1098  sudo apt-get install iceweasel
+ 1099  apt-cache search iceweasel
+ 1100  cd ~/CoderFactory/railsApps/portfolio/
+ 1101  atom .
+ 1102  cd ..
+ 1103  ls
+ 1104  cd ./EmailApp/
+ 1105  atom .
+ 1106  cd ..
+ 1107  cd ./bootstrap/
+ 1108  atom .
+ 1109  cd ../EmailApp/
+ 1110  atom .
+ 1111  ls
+ 1112  cd ./app/views/
+ 1113  ls
+ 1114  sudo rm -rf ./enquiries/
+ 1115  sudo rm -rf ./enquiry_mailer/
+ 1116  ls
+ 1117  cd ..
+ 1118  cd ../portfolio/app/views/
+ 1119  ls
+ 1120  sudo rm -rf ./enquiries/
+ 1121  sudo rm -rf ./enquiry_mailer/
+ 1122  ls
+ 1123  cd ..
+ 1124  rails generate mailer ContactMe
+ 1125  rails destroy mailer ContactMe
+ 1126  git init
+ 1127  git add .
+ 1128  git commit -m "30/08 -v1"
+ 1129  git push -u origin master
+ 1130  git config --edit
+ 1131  git init
+ 1132  git add .
+ 1133  git commit -m "30/08 -v3"
+ 1134  git push -u origin master
+ 1135  git init
+ 1136  git add .
+ 1137  git commit -m "30/08 -v4"
+ 1138  git push -u origin master
+ 1139  git init
+ 1140  git add .
+ 1141  git commit -m "30/08 -v5"
+ 1142  git push -u origin master
+ 1143  exit
+ 1144  rails s
+ 1145  cd ..
+ 1146  ls
+ 1147  cd ./EmailApp/
+ 1148  rails s
+ 1149  cd ../portfolio/
+ 1150  rails s
+ 1151  bundle install
+ 1152  bundle 
+ 1153  rails s
+ 1154  sudo shutdown now
+ 1155  reboot
+ 1156  rails s
+ 1157  cd ..
+ 1158  ls
+ 1159  rails s
+ 1160  cd ./portfolio/
+ 1161  rails s
+ 1162  git init
+ 1163  git add .
+ 1164  git commit -m "31/08 -1"
+ 1165  git push -u origin master
+ 1166  cd ~/CoderFactory/railsApps/portfolio/
+ 1167  atom .
+ 1168  cd ..
+ 1169  ls
+ 1170  vim robottxtstuff.txt
+ 1171  ls
+ 1172  cd ~/Doc
+ 1173  cd ~/Documents/
+ 1174  ls
+ 1175  loffice CoderFactory-AboutMe.odt 
+ 1176  cd ~/CoderFactory/railsApps/portfolio/
+ 1177  rails s
+ 1178  git init
+ 1179  git add .
+ 1180  git commit -m "31/08 -2"
+ 1181  git push -u origin master
+ 1182  rails s
+ 1183  cd ..
+ 1184  touch hist.txt
+ 1185  cd ./railsApps/
+ 1186  cd ..
+ 1187  history >> hist.txt
+ 1188  cat hist.txt
+ 1189  cd ./railsApps/portfolio/
+ 1190  rails s
+ 1191  cd ..
+ 1192  touch flexbox.txt
+ 1193  vim flexbox.txt 
+ 1194  sudo apt-get install cmatrix
+ 1195  cmatrix
+ 1196  cd ./portfolio/
+ 1197  rails s
+ 1198  git init
+ 1199  git add .
+ 1200  git commit -m "31/08 -3"
+ 1201  git push -u origin master
+ 1202  clear
+ 1203  git init
+ 1204  git add .
+ 1205  git commit -m "31/08 -3"
+ 1206  git push -u origin master
+ 1207  rails s
+ 1208  git init
+ 1209  git add .
+ 1210  git commit -m "31/08 -4"
+ 1211  git push -u origin master
+ 1212  atom .
+ 1213  sudo shutdown now
+ 1214  cd ~/CoderFactory/railsApps/portfolio/
+ 1215  rails s
+ 1216  sudo shutdown now
+ 1217  rails s
+ 1218  cd ~/CoderFactory/railsApps/portfolio/
+ 1219  atom .
+ 1220  rails -v
+ 1221  bundle --without production
+ 1222  git intit
+ 1223  git add .
+ 1224  git commit -am "heroku thing"
+ 1225  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh 
+ 1226  heroku login
+ 1227  git init
+ 1228  git add .
+ 1229  git commit -am "heroku thing"
+ 1230  heroku create portfolio
+ 1231  heroku create willdunlop
+ 1232  git remote -v
+ 1233  git push heroku master
+ 1234  cd ~/CoderFactory/railsApps/portfolio/
+ 1235  git config --list | grep heroku
+ 1236  git push heroku master
+ 1237  bundle install
+ 1238  sudo apt-get install libpq-dev
+ 1239  bundle install
+ 1240  git init
+ 1241  git add .
+ 1242  git commit -m "1/09 -1"
+ 1243  git push -u origin master
+ 1244  git init
+ 1245  git add .
+ 1246  git commit -m "heroku thing"
+ 1247  git push heroku master
+ 1248  bundle install
+ 1249  git init
+ 1250  git add .
+ 1251  git commit -m "1/09 -2"
+ 1252  git push -u origin master
+ 1253  git init
+ 1254  git add .
+ 1255  git commit -m "heroku thang"
+ 1256  git push heroku master
+ 1257  bundle -v
+ 1258  bundle install
+ 1259  git init
+ 1260  git add .
+ 1261  git commit -m "1/09 -3"
+ 1262  git push -u origin master
+ 1263  git init
+ 1264  git add .
+ 1265  git commit -am "heroku"
+ 1266  git push heroku master
+ 1267  gem install bundler
+ 1268  bundle install
+ 1269  git init
+ 1270  git add .
+ 1271  git commit -m "13/09 -5"
+ 1272  git push -u origin master
+ 1273  git init
+ 1274  git add .
+ 1275  git commit -m "heroku"
+ 1276  git push heroku master
+ 1277  bundle install
+ 1278  git init
+ 1279  git add .
+ 1280  git commit -m "heroku"
+ 1281  git push heroku master
+ 1282  bundle -v
+ 1283  git init
+ 1284  git add .
+ 1285  git commit -m "heroku"
+ 1286  git push heroku master
+ 1287  git init
+ 1288  git add .
+ 1289  git commit -m "heroku"
+ 1290  git push heroku master
+ 1291  git init
+ 1292  git add .
+ 1293  git commit -m "1/09 6"
+ 1294  git push -u origin master
+ 1295  git init
+ 1296  git add .
+ 1297  git commit -m "heroku"
+ 1298  git push heroku master
+ 1299  rails s
+ 1300  sudo shutdown now
+ 1301  cd CoderFactory/railsApps/portfolio/
+ 1302  git init
+ 1303  git add .
+ 1304  git commit -m "1/09 -7"
+ 1305  git push -u origin master
+ 1306  git push heroku master
+ 1307  sudo shutdown now
+ 1308  rails s
+ 1309  git init
+ 1310  git add .
+ 1311  git commit -m "2/09 -1"
+ 1312  git push -u origin master
+ 1313  git push heroku master
+ 1314  cd ~/CoderFactory/railsApps/portfolio/
+ 1315  atom .
+ 1316  loffice
+ 1317  atom .
+ 1318  git init
+ 1319  git add .
+ 1320  git commit -m "1/09 -2"
+ 1321  git push -u origin master
+ 1322  git push heroku master
+ 1323  rails s
+ 1324  git push heroku master
+ 1325  git init
+ 1326  git add .
+ 1327  git commit -m "2/09 -3"
+ 1328  git push heroku master
+ 1329  sudo shutdown now
+ 1330  cd ~/CoderFactory/railsApps/portfolio/
+ 1331  atom .
+ 1332  sudo shutdown now
+ 1333  rails s
+ 1334  rails
+ 1335  rails s
+ 1336  ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*");a={};loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\ 💩 😜 💩"};$stdout.flush;sleep 0.1}'
+ 1337  cd ~/CoderFactory/railsApps/portfolio/
+ 1338  atom .
+ 1339  git init
+ 1340  git add .
+ 1341  git commit -m "03/09 -1"
+ 1342  git push -u origin master
+ 1343  git push heroku master
+ 1344  git init
+ 1345  git add .
+ 1346  git commit -m "03/09 -2"
+ 1347  git push -u origin master
+ 1348  git push heroku master
+ 1349  git init
+ 1350  git add .
+ 1351  git commit -m "3/09 -3"
+ 1352  git push -u origin master
+ 1353  git push heroku master
+ 1354  git init
+ 1355  git add .
+ 1356  git commit -m "3/09 -4"
+ 1357  git push -u origin master
+ 1358  git push heroku master
+ 1359  git init
+ 1360  git add .
+ 1361  git commit -m "heroku"
+ 1362  git pus heroku master
+ 1363  git push heroku master
+ 1364  git init
+ 1365  git add .
+ 1366  git commit -m "heroku"
+ 1367  git push heroku master
+ 1368  git init
+ 1369  git add .
+ 1370  git commit -m "jd"
+ 1371  git push heroku master
+ 1372  git init
+ 1373  git add .
+ 1374  git commit "03/09 -6"
+ 1375  git commit -m "03/09 -6"
+ 1376  git push -u origin master
+ 1377  git push heroku master
+ 1378  cmatrix
+ 1379  htop
+ 1380  sudo apt-cache search dmtry
+ 1381  sudo apt-cache search dmitry
+ 1382  sudo apt-get install dmitry
+ 1383  sudo apt-cache search nmap
+ 1384  dmitry google.com
+ 1385  dmitry willdunlop.herokuapp.com
+ 1386  ls / -R -l --color=no
+ 1387  cd ~
+ 1388  ls
+ 1389  mkdir TermPranks
+ 1390  cd TermPranks/
+ 1391  touch infinicon
+ 1392  vim infinicon 
+ 1393  ls / -R -l --color=no
+ 1394  ls / -R -l --color=no &&ls / -R -l --color=no
+ 1395  ls / -R -l --color=no && ls / -R -l --color=no && ls / -R -l --color=no && ls / -R -l --color=no
+ 1396  ls && ls
+ 1397  cd ..
+ 1398  ls
+ 1399  (ls)*2
+ 1400  (ls) * 2
+ 1401  ls * 2
+ 1402  ls
+ 1403  ls /* -R -l 
+ 1404  ls /* -R -l --color=no
+ 1405  s
+ 1406  ls
+ 1407  ls ls
+ 1408  ls && ls ls
+ 1409  ls!
+ 1410  ls !
+ 1411  ls && !
+ 1412  ls && ls && !
+ 1413  ls && ls && ls && !
+ 1414  c=ls
+ 1415  c
+ 1416  c='ls'
+ 1417  c
+ 1418  alias c='ls'
+ 1419  c
+ 1420  c*2
+ 1421  (c) * 2
+ 1422  c + c
+ 1423  ls && c + c
+ 1424  ls
+ 1425  ls && ls
+ 1426  a=0
+ 1427  if a < 1; ls; a = 1; end; 
+ 1428  a=0
+ 1429  function kek{ if a < 1; ls; a + 1; end; }
+ 1430  a = 0
+ 1431  a
+ 1432  a=0
+ 1433  a
+ 1434  echop a
+ 1435  echo a
+ 1436  a = 0
+ 1437  @a = 0
+ 1438  @a=0
+ 1439  ls /* -R -l --color=no && ls /* -R -l --color=no && ls /* -R -l --color=no && ls /* -R -l --color=no && ls /* -R -l --color=no && ls /* -R -l --color=no && ls /* -R -l --color=no && ls
+ 1440  sudo shutdown now
+ 1441  cd ..
+ 1442  vim
+ 1443  cd Documents/
+ 1444  ls
+ 1445  loffice CF-Project1Criteria.odt 
+ 1446  sudo shutdown now
+ 1447  cd ~/CoderFactory/railsApps/portfolio/
+ 1448  git init
+ 1449  git add .
+ 1450  git commit -m "06/09 -1"
+ 1451  git push -u origin master
+ 1452  sudo shutdown now
+ 1453  rails s
+ 1454  cd ~/CoderFactory/railsApps/portfolio/
+ 1455  atom .
+ 1456  git int
+ 1457  git init
+ 1458  git add .
+ 1459  git commit -m "06/09 -2"
+ 1460  git push -u origin master
+ 1461  git push heroku master
+ 1462  sudo shutdown now
+ 1463  cd Documents/
+ 1464  ls
+ 1465  cat CF-Project1Criteria.odt 
+ 1466  clear
+ 1467  loffice CF-Project1Criteria.odt 
+ 1468  heroku logs -t
+ 1469  git init
+ 1470  git add .
+ 1471  git commit -m "08/09 -2"
+ 1472  git push -u origin master
+ 1473  git push heroku master
+ 1474  heroku logs -t
+ 1475  git init
+ 1476  git add .
+ 1477  git commit -m "08/09 -3"
+ 1478  git push -u origin master
+ 1479  git push heroku master
+ 1480  heroku logs -t
+ 1481  echo MAILGUN_U
+ 1482  echo $MAILGUN_U
+ 1483  echo $MAILGUn_P
+ 1484  echo $MAILGUN_P
+ 1485  rails s
+ 1486  git init
+ 1487  git add .
+ 1488  git commit -m "08/09 -1"
+ 1489  git push -u origin master
+ 1490  atom .
+ 1491  rails s
+ 1492  sudo apt-get update
+ 1493  sudo apt-get upgrade
+ 1494  shnectic
+ 1495  cs ~/CoderFactory/railsApps/portfolio/
+ 1496  cd ~/CoderFactory/railsApps/portfolio/
+ 1497  atom .
+ 1498  ls
+ 1499  cat README.md 
+ 1500  loffice
+ 1501  sudo shutdown now
+ 1502  cd ~/CoderFactory/railsApps/portfolio/
+ 1503  atom .
+ 1504  sudo vim README.md 
+ 1505  git init
+ 1506  git add .
+ 1507  git commit -m "09/09 -1"
+ 1508  git push -u origin master
+ 1509  sudo vim README.md 
+ 1510  git init
+ 1511  git add .
+ 1512  git commit -m "09/09 -2"
+ 1513  git push -u origin master
+ 1514  sudo vim README.md 
+ 1515  git init
+ 1516  git add .
+ 1517  git commit -m "09/09 -4"
+ 1518  git push -u origin master
+ 1519  git push heroku master
+ 1520  git init
+ 1521  git add .
+ 1522  git commit -m "09/09 -5"
+ 1523  git push -u origin master
+ 1524  git push heroku master
+ 1525  heroku config
+ 1526  heroku config -edit
+ 1527  heroku config --help
+ 1528  echo $MAILGUN_U
+ 1529  heroku config:set MAILGUN_U=postmaster@sandbox9f5c13b3771e4963a69cc1648dd715b2.mailgun.org
+ 1530  echo $MAILGUN_P
+ 1531  heroku config:set MAILGUN_P=3cb25935a26ae14f4e9c0579ded2a5a3
+ 1532  git init
+ 1533  git add .
+ 1534  git commit -m "09/09 -6"
+ 1535  git push -u origin master
+ 1536  git push heroku master
+ 1537  git init
+ 1538  git add .
+ 1539  git commit -m "09/09 -7"
+ 1540  git push -u origin master
+ 1541  git push heroku master
+ 1542  git init
+ 1543  git add .
+ 1544  git commit -m "09/09 -7"
+ 1545  git push -u origin master
+ 1546  git push heroku master
+ 1547  heroku config
+ 1548  ls
+ 1549  ls config
+ 1550  cd config
+ 1551  ls
+ 1552  ruby sitemap.rb 
+ 1553  gem install 'sitemap_generator'
+ 1554  ruby sitemap.rb 
+ 1555  cd. ..
+ 1556  cd ..
+ 1557  git init
+ 1558  git add .
+ 1559  git commit -m "09/09 -8"
+ 1560  git push -u origin master
+ 1561  git push heroku master
+ 1562  git init
+ 1563  git add .
+ 1564  git commit -m "09/09 -8"
+ 1565  git push -u origin master
+ 1566  git push heroku master
+ 1567  git init
+ 1568  git add .
+ 1569  git commit "09/09 -9"
+ 1570  git push -u origin master
+ 1571  git push heroku master
+ 1572  cd ~/CoderFactory/railsApps/portfolio/
+ 1573  touch styleguide.txt
+ 1574  vim styleguide.txt 
+ 1575  ls ~/Downloads/
+ 1576  mv ~/Downloads/sitemap.xml ~/CoderFactory/railsApps/portfolio/public/sitemap.xml
+ 1577  ls ~/Downloads/
+ 1578  mv ~/Downloads/sitemap.xml ~/CoderFactory/railsApps/portfolio/public/sitemap.xml
+ 1579  git init
+ 1580  git add .
+ 1581  git commit -m "09/09 -8"
+ 1582  git push -u origin master
+ 1583  git push heroku master
+ 1584  cd app/
+ 1585  cd assets/
+ 1586  ls
+ 1587  cd images/
+ 1588  ls
+ 1589  cd CoderFactory/railsApps/portfolio/
+ 1590  rails s
+ 1591  git init
+ 1592  git add .
+ 1593  git commit -m "09/09 -9"
+ 1594  git push -u origin master
+ 1595  git push heroku master
+ 1596  ls -R -l / --color=no
+ 1597  sudo shutdown now
+ 1598  cd ~/CoderFactory/
+ 1599  ls -a
+ 1600  cd CFWork/
+ 1601  ls -a
+ 1602  git init
+ 1603  sudo git init
+ 1604  sudo git add
+ 1605  sudo git add .
+ 1606  sudo git commit -m "11/09 -1"
+ 1607  sudo git push -u origin master
+ 1608  cd ..
+ 1609  ls
+ 1610  cd LinuxCFWork/
+ 1611  git init
+ 1612  sudo git init
+ 1613  git add .
+ 1614  sudo git add .
+ 1615  sudo git commit -m "11/09 -1"
+ 1616  sudo git push -u origin master
+ 1617  sudo shutdown now
+ 1618  sudo apt-get update
+ 1619  sudo apt-get install openbox
+ 1620  sudo apt-get install openbox menu libxml2-dev tint2 openbox-menu openbox-gnome-session
+ 1621  dpkconfigure
+ 1622  dpkgconfigue
+ 1623  dpkg
+ 1624  dpkg sddm
+ 1625  dpkg-reconfigure mdm
+ 1626  sudo dpkg-reconfigure mdm
+ 1627  reboot
+ 1628  ranger
+ 1629  sudo apt-get install obconf
+ 1630  dolphin
+ 1631  sudo apt-get install konqueror
+ 1632  sudp apt-get install obmenu
+ 1633  sudo apt-get install obmenu
+ 1634  sudo apt-get install feh
+ 1635  feh --bg-scale ~/Pictures/1471519864408.png 
+ 1636  sudo apt-get install tint2
+ 1637  tint2
+ 1638  ping 8.8.8.8
+ 1639  feh --bg-scale
+ 1640  feh --bg-scale ~/Pictures/1470023759830.png 
+ 1641  feh --bg-scale ~/Pictures/1471519864408.png 
+ 1642  exec openbox
+ 1643  firefox
+ 1644  htop
+ 1645  sudo iftop
+ 1646  ls -R -l /*
+ 1647  sudo shutdown now
+ 1648  dol[hin
+ 1649  dolphin
+ 1650  ranger
+ 1651  dpkg-reconfigure mdm
+ 1652  sudo dpkg-reconfigure mdm
+ 1653  reboot
+ 1654  dpkg-reconfigure mdm
+ 1655  sudo dpkg-reconfigure mdm
+ 1656  reboot
+ 1657  sudo shutdown now
+ 1658  cd CoderFactory/railsApps/Instaclone/
+ 1659  atom .
+ 1660  rails s
+ 1661  bundle
+ 1662  rails g paperclip Post image
+ 1663  rake db:migrate
+ 1664  clear
+ 1665  rails s
+ 1666  git init
+ 1667  git add .
+ 1668  git commit -m "third"
+ 1669  rails s
+ 1670  bundle
+ 1671  rails generate acts_as_votable:migration
+ 1672  rake db:migrate
+ 1673  rails s
+ 1674  rake routes
+ 1675  rails s
+ 1676  git init
+ 1677  git add .
+ 1678  git commit -m "fourth"
+ 1679  sudo shutdown now
+ 1680  sudo apt-get update
+ 1681  sudo apt-get upgrade
+ 1682  cd CoderFactory/railsApps/Instaclone/
+ 1683  rails s
+ 1684  atom .
+ 1685  rails s
+ 1686  sudo shutdown now
+ 1687  git init
+ 1688  git add .
+ 1689  git commit -m "14/09 -1"
+ 1690  git remote add origin https://github.com/willdunlop/Instaclone.git
+ 1691  git push  -u origin master
+ 1692  rails c
+ 1693  rake db:migrate
+ 1694  rails console
+ 1695  rails c
+ 1696  sudo shutdown now
+ 1697  cd CoderFactory/railsApps/Instaclone/
+ 1698  atom .
+ 1699  rails s
+ 1700  sudo shutdown now
+ 1701  rail;s c
+ 1702  rails c
+ 1703  rails s
+ 1704  git init
+ 1705  git add .
+ 1706  git commit -m "14/09 -2"
+ 1707  git push -u origin master
+ 1708  sudo apt-cache search tmax
+ 1709  sudo apt-cache search tmaxx
+ 1710  sudo apt-cache search tmax
+ 1711  sudo apt-get install zeal
+ 1712  zeal
+ 1713  sudo apt-get update
+ 1714  zeal
+ 1715  git init
+ 1716  git add .
+ 1717  git commit -m "14/09 -3"
+ 1718  cd CoderFactory/railsApps/Instaclone/
+ 1719  atom .
+ 1720  rails s
+ 1721  rake :db:migrate
+ 1722  rake db:migrate
+ 1723  rails s
+ 1724  rake db
+ 1725  rake
+ 1726  rake db:reset db:migrate
+ 1727  rails s
+ 1728  ls .git
+ 1729  rails c
+ 1730  sudo shutdown now
+ 1731  cd CoderFactory/railsApps/Instaclone/
+ 1732  atom .
+ 1733  rails s
+ 1734  git init
+ 1735  git add .
+ 1736  git commit -m "14/09 -4"
+ 1737  git push -u origin master
+ 1738  sudo shutdown now
+ 1739  cd CoderFactory/railsApps/Instaclone/
+ 1740  cd ..
+ 1741  rails new modelapp
+ 1742  cd modelapp/
+ 1743  rails g model User name movie
+ 1744  atom .
+ 1745  rails c
+ 1746  rake db:migrate
+ 1747  rails c
+ 1748  zeal
+ 1749  rails c
+ 1750  rails g scaffold Car year condition User:references
+ 1751  rake db:migrate
+ 1752  rails c
+ 1753  User.name = Willos
+ 1754  rails c
+ 1755  cd ..
+ 1756  atom .
+ 1757  cd Twilliam/
+ 1758  atom .
+ 1759  git ionit
+ 1760  git init
+ 1761  git add .
+ 1762  git commit -m "first"
+ 1763  git remote add origin https://github.com/willdunlop/Twilliam.git
+ 1764  git push -u origin master
+ 1765  ls -a
+ 1766  touch history.txt
+ 1767  history >> history.txt
+ 1768  cat history.txt 
+ 1769  clear
+ 1770  bundle
+ 1771  rails g devise:views
+ 1772  rails d devise:views
+ 1773  rails g devise:install
+ 1774  rails g devise:views
+ 1775  rails g devise User
+ 1776  rm history.txt 
+ 1777  #is this a comment?
+ 1778  history
+ 1779  clear
+ 1780  rake db:migrate #push the shit to db
+ 1781  #Devise is now installed
+ 1782  git add .
+ 1783  git commit -m "install divise"
+ 1784  git checkout master
+ 1785  git merge devise
+ 1786  #this merges the branch divise with the branch master
+ 1787  touch history.txt
+ 1788  history >> history.txt 
+ 1789  vim history.txt 
+ 1790  git push -u origin master
+ 1791  rm history.txt 
+ 1792  #after merging the branches i then pushed all to the master branch
+ 1793  #can also choose to push the branches seperatley if preffered
+ 1794  git branch
+ 1795  git branch -d devise
+ 1796  #Deletes the devise branch which is fine because the branches have been merged
+ 1797  git checkout -b bootstrap
+ 1798  #setting up bootstrap
+ 1799  #add boot the the gemfile
+ 1800  #add bootstrab imports to the application.scss
+ 1801  #make sure its scss
+ 1802  #add the bootstrap stuff to application.js
+ 1803  bundle
+ 1804  #bundle has been run
+ 1805  #test server
+ 1806  rails s
+ 1807  rake db:migrate
+ 1808  touch history.txt
+ 1809  history >> history.txt 
+ 1810  cd ..
+ 1811  ls
+ 1812  rails new Twilliam2
+ 1813  cd Twilliam
+ 1814  cd ..
+ 1815  cd Twilliam2
+ 1816  atom .
+ 1817  rails g devise:install
+ 1818  rails g devise:views
+ 1819  rails g devise User
+ 1820  rake db:migrate
+ 1821  rails s
+ 1822  bundle
+ 1823  rails s
+ 1824  git init
+ 1825  git add .
+ 1826  git commit -m "Remake"
+ 1827  git remote add origin https://github.com/willdunlop/Twilliam2.git
+ 1828  git push -u origin master
+ 1829  rails g scaffold Tweet message:text User:references
+ 1830  #creates the migration, model, route, test units, controller for tweets
+ 1831  #also creates scaffold.scss that may need deletion
+ 1832  rake db:migrate
+ 1833  #database migration
+ 1834  # add root 'tweets#index' to the routes
+ 1835  rails s
+ 1836  #in views/tweets delet the user field in _form.html.erb
+ 1837  #go to tweets controller
+ 1838  #in the creat function add " @tweet.user_id = current_user.id if current_user "
+ 1839  git add .
+ 1840  git commit -m "set up tweet scaffold"
+ 1841  git push -u origin master
+ 1842  #do a sneaky git push
+ 1843  git checkout -b navbar
+ 1844  #get bootstrap code for static navbar
+ 1845  # add partial/_nav.html.erb in views
+ 1846  #paste the code
+ 1847  #google devise login logout
+ 1848  #first link
+ 1849  #copy the code to the section of navbar you desire (usually the end)
+ 1850  #both the login/logout and registration code
+ 1851  #then in views/layouts/application.html.erb add " <%= render 'partials/nave' %> " to the top of the body
+ 1852  #give it a test
+ 1853  rails s
+ 1854  #delete that nasty shit on the navbar that comes after the registration link
+ 1855  rails s
+ 1856  ###ERROR FIX###
+ 1857  rails g migration ChangeColumnName
+ 1858  rails db:rollback
+ 1859  rails g model tweets messages:text user:references
+ 1860  rake db:migrate
+ 1861  rails s
+ 1862  rails db:rollback
+ 1863  rake db:migrate
+ 1864  rails s
+ 1865  ###END ERROR FIX###
+ 1866  rails s
+ 1867  #change tweet.user to tweet.user.email on show and index pages
+ 1868  touch history.txt
+ 1869  history >> history.txt 
